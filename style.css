@@ -1,0 +1,1025 @@
+/* debug */
+* {
+  /* outline: 1px solid red; */
+  box-sizing: border-box;
+}
+/* clearfix */
+.clearfix {
+  clear: both;
+}
+
+/* img vertical-align */
+/* 圖片下方的空白要用vertical-align */
+img {
+  vertical-align: bottom;
+}
+
+/* 限制寬度960px */
+body {
+  width: 960px;
+  margin: auto;
+  font-family: "Raleway", sans-serif;
+}
+
+/* ============Header============== */
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+  padding: 30px 15px;
+}
+
+.container .user_function {
+  float: left;
+}
+
+.container .user_action {
+  float: right;
+}
+
+.container .logo {
+  width: 226px;
+  margin: auto;
+}
+
+.container img {
+  width: 100%;
+}
+
+.user_function,
+.user_action {
+  margin-top: 30px;
+}
+
+.user_function a,
+.user_action a {
+  display: block;
+  float: left;
+  width: 20px;
+}
+
+.user_function {
+  margin-left: 20px;
+}
+
+.user_function a {
+  margin-right: 40px;
+  color: #393e45;
+}
+
+.user_function a i {
+  font-size: 19px;
+}
+
+.user_action {
+  margin-right: 20px;
+}
+
+.user_action a {
+  margin-left: 50px;
+  color: #c2d44e;
+  position: relative;
+}
+
+.user_action a i {
+  font-size: 19px;
+}
+
+/* 設定icon右上角數字 */
+.user_action a span {
+  position: absolute;
+  top: -3px;
+  right: -12px;
+}
+
+.container i {
+  font-size: 24px;
+}
+
+/* ============NavBar============== */
+/* navbar置中 */
+.navbar {
+  width: 738px;
+  margin: auto;
+}
+
+.navbar ul {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  margin-left: 30px;
+}
+
+.navbar ul li {
+  float: left;
+  margin-right: 30px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #393e45;
+}
+
+/* ============Biggest Sale============== */
+
+.biggest_sale {
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.biggest_sale img {
+  width: 100%;
+}
+
+.biggest_sale .content {
+  position: absolute;
+  top: 70px;
+  left: 100px;
+}
+
+.biggest_sale .content h2 {
+  width: 800px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: auto;
+  color: #fff;
+  font-size: 40px;
+}
+
+.biggest_sale .content h2 div {
+  padding-bottom: 7px;
+}
+.biggest_sale .content h2 div:first-child {
+  font-size: 40px;
+}
+.biggest_sale .content h2 div:nth-child(2) {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+/* 要先設定sup再設定span大小 */
+/* up to 50% off 區塊 */
+.biggest_sale .content .sup {
+  font-size: 30px;
+  letter-spacing: 0.9px;
+  position: relative;
+}
+
+/* 50%文字 */
+.biggest_sale .content .sup span {
+  font-size: 100px;
+  font-weight: 300;
+  position: relative;
+  top: -20px;
+}
+
+.biggest_sale .content .sup sup {
+  position: relative;
+  bottom: 50px;
+}
+
+.btn {
+  display: block;
+  width: 164px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border: 3px solid #fff;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* 2 column with 2 banner */
+/* 左右都做float */
+.modern {
+  padding-bottom: 15px;
+}
+
+/* 左方區塊 */
+.modern .collection {
+  width: 586px;
+  position: relative;
+  float: left;
+  margin-right: 14px;
+}
+.modern .collection img {
+  width: 100%;
+}
+
+/* 右方區塊 */
+.modern .new_arrival {
+  width: 360px;
+  position: relative;
+  float: left;
+}
+.modern .new_arrival img {
+  width: 100%;
+}
+
+/* 左方文字+button */
+.modern .collection .content {
+  position: absolute;
+  top: 80px;
+  left: 30px;
+}
+
+.modern .collection .content h2 {
+  width: 360px;
+  font-size: 26px;
+  text-align: left;
+  color: #393e45;
+  padding-bottom: 20px;
+}
+
+.modern .collection .content h2 div {
+  padding-bottom: 15px;
+}
+
+.modern .collection .content h2 div:nth-child(2) {
+  font-size: 36px;
+}
+
+.modern .collection .content h2 div:nth-child(3) {
+  font-size: 30px;
+}
+
+.btn_black {
+  display: block;
+  width: 120px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #393e45;
+  border: 1px solid #393e45;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* 右方文字+button */
+.modern .new_arrival .content {
+  position: absolute;
+  top: 110px;
+  left: 20px;
+}
+
+.modern .new_arrival .content h2 {
+  width: 270px;
+  font-size: 26px;
+  text-align: left;
+  color: #393e45;
+  padding-bottom: 20px;
+}
+
+.modern .new_arrival .content h2 div {
+  padding-bottom: 15px;
+}
+
+.modern .new_arrival .content h2 div:nth-child(2) {
+  font-size: 36px;
+}
+
+/* 2 column with 2 left + 1 right */
+.discount {
+  padding-bottom: 15px;
+}
+
+/* normal跟secret都靠左float */
+/* 設定完寬度後，img要設定100% */
+.discount .normal {
+  width: 360px;
+  float: left;
+  margin-right: 10px;
+  position: relative;
+}
+
+.discount .secret {
+  width: 587px;
+  float: left;
+}
+
+.discount .normal img {
+  width: 100%;
+}
+
+.discount .secret img {
+  width: 100%;
+}
+
+/* 以holiday及kitchen為基準：設定relative */
+/* 內部content設定absolute */
+/* 不設relative是因為會佔到空間 */
+/* 以secret為基準，設定relative
+內部content設定absolute */
+
+.discount .normal .holiday,
+.discount .normal .kitchen,
+.discount .secret {
+  position: relative;
+}
+
+.discount .normal .holiday .content {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+
+.discount .normal .holiday .content_text {
+  color: #fff;
+}
+
+.discount .normal .holiday .content_text div {
+  padding-bottom: 10px;
+}
+
+.discount .normal .holiday .content_text div + div {
+  font-size: 22px;
+}
+
+.discount .normal .holiday .content a {
+  background-color: #393e45;
+  width: 120px;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  color: #fff;
+}
+
+/* 左下方區塊 */
+.discount .normal .kitchen .content {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+}
+
+.discount .normal .kitchen .content {
+  text-align: right;
+}
+.discount .normal .kitchen .content .content_text div {
+  padding-bottom: 10px;
+}
+
+.discount .normal .kitchen .content .content_text div + div {
+  font-size: 22px;
+}
+.discount .normal .kitchen .content a {
+  float: right;
+}
+
+/* 設定kitchen的padding-top */
+.discount .normal .kitchen {
+  padding-top: 13px;
+}
+
+/* absolute+margin auto置中 */
+.discount .secret .content {
+  position: absolute;
+  width: 330px;
+  height: 158px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+.discount .secret .content h2 div:first-child {
+  font-size: 36px;
+}
+
+.discount .secret .content h2 div + div {
+  font-size: 30px;
+}
+.discount .secret .content h2 div {
+  padding-bottom: 15px;
+}
+
+.discount .secret .content a {
+  width: 125px;
+  font-size: 14px;
+  padding: 12px 20px;
+}
+
+.discount .secret .content div span:first-child {
+  font-size: 50px;
+  color: #c2d44e;
+  font-weight: 300;
+}
+.discount .secret .content span + span {
+  color: #fff;
+}
+
+/* ============POPULAR PRODUCTS============== */
+.popular {
+  padding-bottom: 100px;
+}
+
+.popular .container {
+  width: 768px;
+  padding: 0;
+  position: relative;
+}
+
+.popular .container h2 {
+  width: 400px;
+  margin: auto;
+  font-size: 34px;
+  padding-bottom: 50px;
+}
+
+/* 設定img父層寬度+img 100% 
+ item 設定float*/
+.popular .container .item {
+  width: 256px;
+  float: left;
+  padding: 0 15px;
+}
+
+.popular .container .item img {
+  width: 100%;
+}
+
+/* 設定背景色 */
+.popular .item .pic {
+  background-color: #f2f2f2;
+  position: relative;
+  /* padding-bottom: 20px; */
+}
+
+/* 到container設定relative後
+ 設定左右箭頭為absolute */
+.popular .arrow-left,
+.popular .arrow-right {
+  position: absolute;
+}
+
+.popular .arrow-left {
+  top: 240px;
+  left: 5px;
+  z-index: 99;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: -3px -3px #f2f2f2;
+}
+.popular .arrow-left i {
+  color: gray;
+  line-height: 50px;
+}
+
+.popular .arrow-right {
+  top: 240px;
+  right: 5px;
+  z-index: 99;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 3px 3px #f2f2f2;
+}
+
+.popular .arrow-right i {
+  color: gray;
+  line-height: 50px;
+}
+
+/* pic設定relative後
+設定eye位置 */
+.popular .item .pic .fa-eye {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+  border: 1px solid #c2d44e;
+  padding: 13px;
+  font-size: 14px;
+  color: #c2d44e;
+}
+
+/* 設定折扣位置 */
+/* 圓形寬高要設一樣 */
+.popular .item .pic .item_discount {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #c2d44e;
+  color: #fff;
+}
+
+/* 設定new circle */
+.popular .item .pic .item_new {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #393e45;
+  color: #fff;
+}
+
+/* 設定item_pack */
+.popular .item .pic .item_pack {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  position: absolute;
+  top: 65px;
+  right: 10px;
+  background-color: #fbbc05;
+  color: #fff;
+}
+
+/* 設定item內的text */
+.popular .item .item_text h3,
+.popular .item .item_text div {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.popular .item .item_text h3 + div span {
+  text-decoration: line-through;
+}
+.popular .item .item_text h3 + div span + span {
+  color: #c2d44e;
+  font-size: 18px;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+/*tool bar */
+.product_btn {
+  width: 226px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+/* 我的最愛 與 分享*/
+.product_btn .wish,
+.product_btn .share {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background-color: #c2d44e;
+  text-align: center;
+}
+.product_btn .wish i,
+.product_btn .share i {
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.product_btn .middle {
+  display: inline-block;
+  background-color: #c2d44e;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* ============LEFT:(2+1) column +  RIGHT:1 column============== */
+
+.home {
+  padding-bottom: 100px;
+}
+
+.home .item {
+  float: left;
+}
+
+/* 設定img父層寬度 */
+/* img設定100% */
+/* 左邊區塊*/
+.home .normal-sale .decoration {
+  width: 327px;
+  position: relative;
+}
+.home .normal-sale .limited {
+  width: 294px;
+  position: relative;
+}
+.home .normal-sale .bottom_text {
+  width: 634px;
+}
+
+/* 右邊區塊 */
+.home .light {
+  width: 313px;
+  position: relative;
+}
+
+.home img {
+  width: 100%;
+}
+
+/* 按鈕套用.btn */
+/* decorations-text */
+.home .normal-sale .decoration .decoration_text {
+  /* 設定固定寬高 */
+  /* 垂直置中 水平置中 */
+  position: absolute;
+  width: 280px;
+  height: 110px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: #393e45;
+  text-align: center;
+}
+
+.home .normal-sale .decoration .decoration_text h3 {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.home .normal-sale .decoration .decoration_text p {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.home .normal-sale .decoration .btn {
+  background-color: #393e45;
+  width: 120px;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+}
+
+/* limited-text */
+.home .normal-sale .limited .limited_text {
+  position: absolute;
+  width: 280px;
+  height: 110px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+}
+
+.home .normal-sale .limited .limited_text h3 {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.home .normal-sale .limited .limited_text p {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.home .normal-sale .limited .btn {
+  color: #fff;
+  background-color: #c2d44e;
+  width: 120px;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+}
+
+/* light-text */
+.home .light .light_text {
+  position: absolute;
+  width: 287px;
+  height: 180px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: #393e45;
+  text-align: center;
+}
+
+.home .light .light_text p {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.home .light .light_text h3 {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.home .light .light_text h3 + p {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.home .light .light_text .btn {
+  color: #393e45;
+  width: 125px;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 1px solid #393e45;
+}
+
+/* 左右元素空隙 */
+.home .normal-sale {
+  margin-right: 13px;
+}
+
+.home .normal-sale .decoration {
+  margin-right: 13px;
+}
+
+/* 左下角banner元素上面 */
+.home .bottom_text {
+  width: 1257px;
+  background-color: #393e45;
+  color: #fff;
+  text-align: center;
+  padding: 17px 0;
+  margin-top: 20px;
+}
+
+/* 有背景色，所以用padding-top無法與上方元素有區隔
+變成要用margin-top */
+.home .bottom_text .text {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+/* 20%文字 */
+.bottom_text .text span {
+  color: #c2d44e;
+  padding: 0 10px;
+}
+
+/* ============LATEST FROM BLOG============ */
+.blog {
+  padding-bottom: 100px;
+}
+.blog .container {
+  width: 768px;
+  padding: 0;
+}
+
+.blog .container h2 {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 400;
+}
+/* 左右區塊並排 */
+.blog .container .item {
+  float: left;
+  width: 384px;
+  padding: 50px 10px;
+  /* margin-left:15px; */
+  /* margin-right:15px; */
+}
+
+/* 設定widget及post寬度 */
+.blog .item .widget {
+  width: 68px;
+  margin-right: 9px;
+}
+
+.blog .item .post {
+  width: 277px;
+}
+
+/* widget與post並排 */
+.blog .widget,
+.blog .post {
+  float: left;
+}
+
+.widget,
+.view {
+  font-size: 10px;
+}
+
+/* 設定widget */
+
+.widget .fas {
+  padding: 10px 0;
+}
+
+/* i為inline,等同text,可用text-align */
+.widget .calendar {
+  text-align: center;
+  color: rgb(57, 62, 69);
+  background-color: rgb(194, 212, 78);
+  padding: 10px 5px;
+}
+
+/* 設定眼睛區塊 */
+.widget .view {
+  text-align: center;
+  color: rgb(174, 180, 188);
+  background-color: rgb(57, 62, 69);
+  padding: 10px 0;
+  margin-top: 10px;
+}
+
+/* 設定post */
+.blog .post {
+  font-size: 18px;
+}
+.blog .post img {
+  width: 100%;
+}
+
+.post h3 {
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.post p {
+  padding-bottom: 20px;
+  line-height: 1.556;
+  color: #7d7d7d;
+}
+
+/* 按鈕 */
+/* Link要改成block */
+.post a {
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  padding: 13px 30px;
+  text-decoration: none;
+  border: 1px solid #393e45;
+  color: #393e45;
+  width: 161px;
+  font-weight: 700;
+}
+
+/* ============About section============ */
+
+.about .info {
+  width: 369px;
+  padding-right: 15px;
+  margin-right: 15px;
+}
+.about .newsletter {
+  width: 576px;
+  position: relative;
+}
+
+.about .item {
+  float: left;
+}
+
+/* 左邊區塊 */
+.about .info {
+  background-color: #c2d44e;
+  padding: 65px 11px 60px 44px;
+  font-size: 18px;
+  color: #393e45;
+}
+
+.about .info h3 {
+  font-size: 26px;
+  color: #fff;
+  padding: 13px 0;
+}
+
+.about .info address {
+  padding: 20px 0;
+}
+.about .info address i {
+  padding-bottom: 10px;
+  font-size: 32px;
+  color: #fff;
+}
+.about .info address p {
+  padding-top: 5px;
+}
+.about .info p {
+  padding-bottom: 13px;
+}
+
+.about .info .container div {
+  padding: 10px 0;
+}
+
+/* 右邊區塊 */
+/* content設定absolute,父層設定relative */
+.about .newsletter {
+  background: url("img/newsletter-bg.jpg") no-repeat top;
+  background-size: cover;
+}
+
+.about .newsletter .content {
+  position: relative;
+  top: 80px;
+  width: 100%;
+}
+
+.about .newsletter .content h3 {
+  text-align: center;
+  font-size: 34px;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+
+.about .newsletter .content p {
+  font-size: 18px;
+  /* padding:50px 0; */
+  text-align: center;
+  width: 518px;
+  margin: auto;
+  color: #393e45;
+  padding-bottom: 80px;
+}
+
+.about .newsletter .content input {
+  display: block;
+  width: 546px;
+  margin: auto;
+  line-height: 26px;
+  padding: 16px 30px;
+  font-size: 16px;
+  border: none;
+}
+
+/* a要改成block
+設定width後才能置中 */
+.about .newsletter .content a {
+  display: block;
+  width: 162px;
+  padding: 17px 34px;
+  background-color: #c2d44e;
+  text-decoration: none;
+  color: #fff;
+  margin: 50px auto;
+  margin-bottom: 130px;
+}
+
+/* 與mega menu做區隔 */
+.about {
+  padding-bottom: 20px;
+}
+
+/* ============Mega Menu============ */
+
+.mega_menu {
+  background-color: #393e45;
+}
+
+.mega_menu .container {
+  width: 768px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin: auto;
+  padding: 30px 0;
+}
+
+.mega_menu .container .item {
+  float: left;
+  margin-right: 23px;
+}
+
+.mega_menu .container .item h3 {
+  color: #aeb4bc;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.35;
+  padding-bottom: 20px;
+}
+
+.mega_menu .container .item ul {
+  padding-left: 20px;
+  width: 162px;
+}
+
+.mega_menu .container .item ul li,
+.mega_menu .container .item p {
+  padding-bottom: 15px;
+  color: #898e91;
+}
+
+/* ============footer============ */
+
+footer {
+  background-color: #393e45;
+  text-align: center;
+  padding: 40px 0;
+  color: #aeb4bc;
+}
